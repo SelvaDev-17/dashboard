@@ -83,3 +83,25 @@
     color: var(--accent-secondary);
     filter: drop-shadow(0 0 5px var(--accent-secondary));
 }
+
+@media (max-width: 480px) {
+    .header {
+        padding: var(--spacing-xs) var(--spacing-md);
+        height: 70px;
+    }
+
+    .logo-text {
+        font-size: 1.2rem;
+        display: none;
+        /* Hide text on very small screens if needed, or keep smaller */
+    }
+
+    .logo-icon {
+        padding: 5px;
+    }
+
+    .theme-toggle {
+        width: 36px;
+        height: 36px;
+    }
+}
