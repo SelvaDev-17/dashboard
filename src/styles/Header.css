@@ -1,0 +1,85 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--spacing-sm) var(--spacing-lg);
+    margin-bottom: var(--spacing-xl);
+    height: 80px;
+    position: sticky;
+    top: var(--spacing-sm);
+    z-index: 100;
+
+    /* Vivid Glass Effect */
+    background: var(--glass-bg);
+    backdrop-filter: var(--glass-blur);
+    -webkit-backdrop-filter: var(--glass-blur);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--glass-shadow);
+
+    /* Gradient Border Bottom Effect */
+    border-bottom: 2px solid transparent;
+    background-image: linear-gradient(var(--glass-bg), var(--glass-bg)), var(--gradient-primary);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+.logo-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 8px;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--accent-primary);
+    box-shadow: 0 0 15px var(--accent-primary);
+    /* Neon Glow */
+}
+
+.logo-text {
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    background: var(--gradient-text);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: 0 0 20px rgba(0, 240, 255, 0.3);
+}
+
+.theme-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: var(--radius-full);
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text-secondary);
+    transition: all var(--transition-short);
+    border: 1px solid var(--border-color);
+}
+
+.theme-toggle:hover {
+    background: var(--bg-card);
+    color: var(--accent-primary);
+    transform: translateY(-2px);
+    box-shadow: 0 0 15px var(--accent-secondary);
+    border-color: var(--accent-secondary);
+}
+
+.icon-sun {
+    color: var(--accent-warning);
+    filter: drop-shadow(0 0 5px var(--accent-warning));
+}
+
+.icon-moon {
+    color: var(--accent-secondary);
+    filter: drop-shadow(0 0 5px var(--accent-secondary));
+}

@@ -1,0 +1,87 @@
+:root {
+  /* Colors - Deep Petrol / Abyssal Teal Theme */
+  --bg-primary: #020b14;
+  /* Deepest Abyssal Teal */
+  --bg-secondary: #0d2332;
+  /* Rich Dark Teal */
+  --bg-card: rgba(13, 35, 50, 0.6);
+  /* Glass Teal */
+  --text-primary: #e0f2fe;
+  /* Pale Cyan Text */
+  --text-secondary: #94a3b8;
+
+  /* Vivid Accents */
+  --accent-primary: #00f2ff;
+  /* Neon Cyan */
+  --accent-secondary: #ccff00;
+  /* Neon Lime/Green */
+  --accent-tertiary: #ff0055;
+  /* Hot Pink/Coral */
+  --accent-success: #00ff9d;
+  /* Neon Green */
+  --accent-warning: #ffbd00;
+  /* Bright Yellow */
+  --accent-error: #ff4d4d;
+  /* Bright Red */
+
+  --border-color: rgba(0, 242, 255, 0.2);
+  /* Cyan tint border */
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #00f2ff 0%, #ccff00 100%);
+  --gradient-secondary: linear-gradient(135deg, #ff0055 0%, #7000ff 100%);
+  --gradient-text: linear-gradient(to right, #00f2ff, #ccff00);
+
+  /* Glassmorphism */
+  --glass-bg: rgba(13, 35, 50, 0.6);
+  --glass-border: rgba(0, 242, 255, 0.15);
+  --glass-blur: blur(16px);
+  --glass-shadow: 0 8px 32px 0 rgba(0, 242, 255, 0.1);
+
+  /* Typography */
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+
+  /* Radius */
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1.5rem;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-bounce: 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+[data-theme='light'] {
+  --bg-primary: #f0fdf4;
+  /* Minty White */
+  --bg-secondary: #ffffff;
+  --bg-card: rgba(255, 255, 255, 0.9);
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+
+  --accent-primary: #059669;
+  /* Emerald */
+  --accent-secondary: #0ea5e9;
+  /* Sky Blue */
+  --accent-tertiary: #db2777;
+  /* Pink */
+
+  --border-color: rgba(5, 150, 105, 0.2);
+
+  --gradient-primary: linear-gradient(135deg, #059669 0%, #0ea5e9 100%);
+  --gradient-secondary: linear-gradient(135deg, #db2777 0%, #7c3aed 100%);
+  --gradient-text: linear-gradient(to right, #059669, #0ea5e9);
+
+  --glass-bg: rgba(255, 255, 255, 0.8);
+  --glass-border: rgba(5, 150, 105, 0.1);
+  --glass-shadow: 0 8px 32px 0 rgba(5, 150, 105, 0.1);
+}
